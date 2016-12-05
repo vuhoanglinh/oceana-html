@@ -1,0 +1,661 @@
+/*
+* Copyright 2016 Oceana;
+* Author: Linh Vu;
+* Plugins: Bootstrap v3.3.7 (http://getbootstrap.com);
+* Fonts: "Helvetica Neue", "Porter Bold Demo";
+* 
+* Color: 
+*   Main: 
+*       #5cb3c7;
+*       #ea8c28;
+*       #ea8c28;
+*   Text: 
+*       - #ffffff;
+*		- #999999;
+*		- #555555;
+*		- #3f879b
+*		- #000e35
+/*
+* GENERAL CSS
+*/
+
+ul {
+  list-style: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.full-width {
+  float: left;
+  width: 100%;
+}
+/*
+* HEADER CSS
+*/
+.header {
+	position: relative;
+	z-index: 22;
+	padding: 15px 80px 10px;
+}
+.header .logo {
+	position: absolute;
+	bottom: -50px;
+    left: 30px;
+}
+.header .logo img {
+	height: 100px;
+}
+.callnow {
+	float: right;
+}
+.callnow a,
+.callnow span {
+	display: table-cell;
+    vertical-align: top;
+	color: #5cb3c7;
+	padding-left: 10px;
+}
+.callnow span {
+    padding-top: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.callnow a {
+	font-size: 40px;
+}
+
+/*
+* SLIDE CSS
+*/
+.slide {
+  background: url(../images/bg_02.png);
+  color: #ffffff;
+  padding: 40px 80px 80px;
+  position: relative;
+}
+.slide .slide-content {
+	height: 490px;
+	position: relative;
+}
+
+.more {
+	width: 100%;
+	position: relative;
+	padding-right: 50px;
+	display: block;
+}
+
+.more .sline {
+    border-bottom: 1px solid #ffffff;
+    display: block;
+}
+
+.more a {
+    position: absolute;
+    right: 0;
+    top: -12px;
+    font-size: 18px;
+	letter-spacing: 1px;
+    color: #fff;
+}
+
+.slide .slide-content .title {
+	position: absolute;
+	left: -20px;
+}
+
+.slide .slide-description {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 90%;
+	text-align: justify;
+}
+
+
+.title {
+	font-family: "Porter Bold DEMO", sans-serif;
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 0.9;
+}
+
+.title .line {
+    width: 250px;
+    border-bottom: 2px solid #ffffff;
+    display: block;
+    margin-top: 10px;
+}
+
+
+.slide .slide-form {
+	color: #999999;
+}
+
+.slide .slide-form .panel {
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow:    0px 0px 12px 0px rgba(0, 0, 0, 1);
+    box-shadow:         0px 0px 12px 0px rgba(0, 0, 0, 1);
+}
+.slide .slide-form .panel-heading{
+	color: #224886;
+	font-size: 20px;
+	padding-bottom: 0;
+	font-weight: 700;
+}
+
+.slide .slide-form .panel {
+	margin-bottom: 0;
+	/*height: 490px;*/
+}
+.slide .slide-form .panel .panel-body{
+	padding-top: 0; 
+}
+.form-group {
+	margin-bottom: 0;
+}
+.form-control {
+	border-radius: 0;
+	box-shadow: none !important;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-top-color: transparent;
+    height: 28px;
+    padding: 4px 0;
+    font-size: 14px;
+    line-height: 1.2;
+}
+.form-control:focus {
+	box-shadow: none;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-top-color: transparent;
+}
+
+.btn-box {
+	background: #ea8c28;
+	margin: 15px 0;
+	font-size: 22px;
+	padding: 5px;
+	color: #ffffff;
+	width: 100%;
+	border-radius: 50px;
+	border: 2px solid #dddddd;
+}
+
+.slide-form-title {
+	background: #5cb3c7;
+    text-shadow: -4px 0px rgba(0, 0, 0, 0.47);
+    margin: 0 0 15px;
+    font-size: 22px;
+    padding: 10px 20px;
+    color: #ffffff;
+    width: 100%;
+    border-radius: 16px;
+	border: 2px solid #ffffff;
+	white-space: nowrap;
+}
+
+.slide .slide-form .small{
+	font-size: 9px;
+	margin: 0;
+}
+
+.form-message a {
+	color: #555555;
+	font-size: 16px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+
+/*
+* BLOG CSS
+*/
+.blog-listing {
+	margin-top: -40px;
+    position: relative;
+    z-index: 11;
+    border-radius: 0 50px;
+    background: #ffffff;
+}
+.blog-item {
+  	background: url(../images/bg_box_04.png);
+    background-size: 100%;
+    background-position: 0px 85px;
+    background-repeat: no-repeat;
+    height: 325px;
+    margin-bottom: 30px;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    color: #3f879b;
+}
+
+.blog-item .blog-item-title {
+	padding-left: 80px;
+	font-size: 24px;
+	
+    margin-bottom: 45px;
+}
+
+.blog-item .blog-item-title .more {
+	padding-right: 80px;
+}
+.blog-item .blog-item-title .more .sline {
+	border-color: #5cb3c7;
+}
+
+.blog-item .blog-item-title .more a{
+	background: #5cb3c7;
+    text-shadow: -4px 0px rgba(0, 0, 0, 0.47);
+    margin: 0 0 15px;
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #ffffff;
+    border-radius: 16px;
+	border: 2px solid #ffffff;
+	right: 80px;
+    top: -25px;
+}
+.blog-item .blog-description {
+	padding-right: 125px;
+    padding-top: 20px;
+}
+.blog-image img {
+    margin-top: -30px;
+}
+
+
+/*
+* COST TABLE CSS
+*/
+.traffix-report {
+	margin-bottom: 20px;
+}
+.traffix-report-item {
+  text-align: center;
+  position: relative;
+  color: #1d4078;
+}
+
+.traffix-listing .traffix-report-item:last-child {
+  background-image: none;
+}
+
+.traffix-report-item .box-price {
+    margin-left: calc(50% - 95px);
+    position: relative;
+    z-index: 11;
+}
+.traffix-report-item .box-cirle {
+    background: #1d4078;
+    border-radius: 50%;
+    height: 190px;
+    width: 190px;
+    font-size: 72px;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    position: relative;
+    color: #ffffff;
+}
+
+.traffix-report-item .box-cirle sup,
+.traffix-report-item .box-cirle sub {
+  position: absolute;
+}
+
+.traffix-report-item .box-cirle sup {
+    top: 85px;
+    left: 15px;
+    font-size: 32px;
+}
+
+.traffix-report-item .box-cirle sub {
+    bottom: 55px;
+    left: 65px;
+    font-size: 24px;
+}
+
+.traffix-report .box-text {
+    margin-top: -90px;
+    padding: 110px 20px 20px;
+    border-radius: 25px;
+    height: 330px;
+    background: url(../images/bg_box_06.png);
+    position: relative;
+}
+.traffix-report-item .box-text .box-text-title {
+    font-size: 24px;
+    line-height: 1;
+}
+
+.traffix-report-item .box-text .box-text-title sup {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.traffix-report-item .box-text ul {
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 1;
+    list-style: none;
+   	text-align: left;
+}
+
+.traffix-report-item .box-action {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  right: 20px;
+  width: auto;
+  border-color: #ffffff;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.76);
+}
+
+.traffix-footer,
+.traffix-listing {
+  padding: 20px 80px;
+  position: relative;
+  z-index: 22;
+  float: left;
+  width: 100%;
+}
+.traffix-listing {
+	background: url(../images/bg_shadow_02.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left 380px;
+    padding-bottom: 60px;
+}
+.traffix-footer {
+	margin-top: -50px;
+}
+.traffix-report-text,
+.traffix-report-text .more a {
+	color: #1d4078;
+	font-size: 16px;
+}
+
+.traffix-report-text h2{
+  margin-top: 0;
+  font-size: 32px;
+}
+
+.traffix-report-action {
+  text-align: center;
+}
+
+.traffix-report-action .link-more {
+  font-size: 28px;
+  margin-top: 10px;
+  display: inline-block;
+  color: #ffffff;
+  font-style: italic;
+}
+
+.traffix-report .title,
+.traffix-report-text h2 {
+	margin-top: 0;
+	color: #5cb3c7;
+}
+
+.traffix-report .title .line {
+	border-bottom-color: #5cb3c7;
+}
+
+.traffix-report-text .more .sline{
+	border-bottom-color: #1d4078;
+}
+.traffix-report-text .more a {
+	background: #fff;
+    padding-left: 15px;
+}
+    
+/*
+* COMPANY CSS
+*/
+.company {
+	background: url(../images/bg_0_02.png);
+	/*background-size: contain;*/
+	color: #1d4078;
+	padding: 40px 80px;
+}
+
+.company .box {
+	border-radius: 25px;
+    background: url(../images/bg_box_06.png);
+    position: relative;
+    padding: 20px 40px;
+    border: 2px solid #ffffff;
+    margin-bottom: 40px;
+}
+
+.box.box-large {
+    height: 360px;
+}
+
+.box .compnany-president {
+    position: absolute;
+    top: -50px;
+    right: -44px;
+    width: 360px;
+}
+
+.box .company-title {
+	width: calc(100% - 245px);
+	text-align: right;
+	position: relative;
+}
+.box .company-title h2 {
+	font-size: 40px;
+	line-height: 1.2;
+	color: #000e35;
+}
+.box .company-title span {
+	font-size: 28px;
+	display: block;
+}
+.box .company-line {
+	border: 1px solid #1d4078;
+	margin-right: -40px;
+}
+.star ul {
+	margin: 0;
+	padding: 0;
+}
+.star ul li {
+	display: inline-block;
+}
+
+.box .star img {
+	width: 26px;
+}
+.box .company-title .star {
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+}
+.box .company-details {
+	width: calc(100% - 255px);
+}
+.box .company-details h3 {
+	font-size: 28px;
+}
+.box .company-details p {
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.box.box-small .compnany-president {
+	right: 0;
+	top: -30px;
+	width: 155px;
+}
+
+.box.box-small .company-title h2 {
+	font-size: 20px;
+	text-align: left;
+}
+
+.box.box-small .company-title {
+    width: calc(100% - 100px);
+}
+
+.box.box-small .company-title span {
+    font-size: 14px;
+}
+.box.box-small .company-details {
+    width: 100%;
+}
+.box .company-details h3 {
+    font-size: 18px;
+}
+.box .company-details p {
+    font-size: 14px;
+}
+
+.box .star img {
+	width: 15px;
+}
+.box .company-title .star {
+	position: relative;
+	text-align: left;
+}
+.box-small-list {
+	margin-left: -30px;
+	margin-right: -30px;
+}
+
+.company .title .line {
+	border-bottom-color: #1d4078; 
+}
+
+.the-team {
+	position: relative;
+	height: 600px;
+}
+
+.company .the-team .the-team-man {
+	position: absolute;
+	left: -80px;
+	width: 50%;
+	z-index: 2;
+}
+
+.company .the-team .quotes {
+    position: absolute;
+    width: 230px;
+    left: 200px;
+    z-index: 1;
+    top: 160px;
+}
+
+.the-team .the-team-title {
+    width: 70%;
+    float: right;
+    position: relative;
+    z-index: 4;
+}
+.the-team .the-team-title h2{
+	text-align: right;
+	font-size: 46px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #1d4078;
+}
+.the-team-description a{
+	    float: right;
+    background: #ea8c28;
+    background-size: contain;
+    margin: 15px 0 0;
+    padding: 10px 52px 10px 28px;
+    color: #ffffff;
+    font-size: 16px;
+    position: relative;
+    border-radius: 50px;
+    border: 2px solid #dddddd;
+}
+.the-team-description a .icon-soundcloud {
+    position: absolute;
+    top: -22px;
+}
+.the-team-description {
+	width: 80%;
+	float: right;
+}
+.the-team-description h3 {
+	font-size: 20px;
+	display: inline-block;
+}
+
+.the-team-description h3 span {
+	display: block;
+	font-size: 16px;
+}
+
+
+.company-notify {
+	color: #1d4078;
+	padding: 40px;
+}
+
+.company-notify .the-team .the-team-title {
+	float: left;
+	text-align: left;
+}
+
+.company-notify .the-team .the-team-title h2{
+	text-align: left;
+	font-size: 30px;
+	margin-top: 0;
+}
+
+.company-notify .the-team .the-team-man {
+	position: absolute;
+	width: 50%;
+	z-index: 2;
+	right: -73px;
+}
+.company-notify .the-team-title p,
+.company-notify .the-team-description{
+	width: 80%;
+	padding-left: 5%;
+}
+
+.company-notify .the-team-description {
+	float: left;
+}
+
+.company-notify .the-team .quotes {
+    position: absolute;
+    width: 230px;
+    right: 321px;
+    z-index: 2;
+    top: 15px;
+    transform: rotate(180deg);
+}
+
+.traffix-v2 {
+	background: url(../images/bg_0_05.png);
+	color: #1d4078;
+}
+
+.traffix-v2 .title,
+.traffix-v2 .title, .traffix-report-text h2 {
+	color: #1d4078;
+}
+
+.traffix-v2 .title .line {
+	border-bottom-color: #1d4078;
+}
+.traffix-v2 .traffix-report-text .more a {
+	background: transparent;
+}
+
+.traffix-v2  .more {
+	    padding-right: 130px;
+}
