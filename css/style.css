@@ -21,6 +21,8 @@
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 a:hover {
     text-decoration: none;
@@ -189,7 +191,14 @@ a:hover {
     color: #fff;
     border: 2px solid #fff;
     border-radius: 16px;
-    background: #5cb3c7;
+    background: rgba(109, 193, 213, 1);
+    background: -moz-linear-gradient(left, rgba(109, 193, 213, 1) 0%, rgba(83, 171, 193, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(109, 193, 213, 1)), color-stop(100%, rgba(83, 171, 193, 1)));
+    background: -webkit-linear-gradient(left, rgba(109, 193, 213, 1) 0%, rgba(83, 171, 193, 1) 100%);
+    background: -o-linear-gradient(left, rgba(109, 193, 213, 1) 0%, rgba(83, 171, 193, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(109, 193, 213, 1) 0%, rgba(83, 171, 193, 1) 100%);
+    background: linear-gradient(to right, rgba(109, 193, 213, 1) 0%, rgba(83, 171, 193, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#6dc1d5', endColorstr='#53abc1', GradientType=1);
     text-shadow: -4px 0 rgba(0, 0, 0, .47);
 }
 .slide .slide-form .small {
@@ -248,7 +257,14 @@ a:hover {
     color: #fff;
     border: 2px solid #fff;
     border-radius: 30px;
-    background: #5cb3c7;
+    background: rgba(128, 209, 230, 1);
+    background: -moz-linear-gradient(left, rgba(128, 209, 230, 1) 0%, rgba(83, 171, 193, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(128, 209, 230, 1)), color-stop(100%, rgba(83, 171, 193, 1)));
+    background: -webkit-linear-gradient(left, rgba(128, 209, 230, 1) 0%, rgba(83, 171, 193, 1) 100%);
+    background: -o-linear-gradient(left, rgba(128, 209, 230, 1) 0%, rgba(83, 171, 193, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(128, 209, 230, 1) 0%, rgba(83, 171, 193, 1) 100%);
+    background: linear-gradient(to right, rgba(128, 209, 230, 1) 0%, rgba(83, 171, 193, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#80d1e6', endColorstr='#53abc1', GradientType=1);
     text-shadow: -4px 0 rgba(0, 0, 0, .47);
     text-transform: uppercase;
 }
@@ -293,6 +309,7 @@ a:hover {
     color: #fff;
     border-radius: 50%;
     background: #1d4078;
+    border: 2px solid #ffffff;
 }
 .traffix-report-item .box-cirle sup,
 .traffix-report-item .box-cirle sub {
@@ -315,6 +332,7 @@ a:hover {
     padding: 110px 20px 20px;
     border-radius: 25px;
     background: url(../images/bg_box_06.png);
+    border: 2px solid #ffffff;
 }
 .traffix-report-item .box-text .box-text-title {
     font-size: 24px;
@@ -329,7 +347,6 @@ a:hover {
     line-height: 1;
     margin-top: 25px;
     list-style: none;
-    text-align: left;
 }
 .traffix-report-item .box-action {
     position: absolute;
@@ -379,10 +396,10 @@ a:hover {
 }
 .traffix-report .title {
     margin: 0 40px;
-    color: #5cb3c7;
+    color: #629dad;
 }
 .traffix-report .title .line {
-    border-bottom-color: #5cb3c7;
+    border-bottom-color: #629dad;
 }
 .traffix-report-text .more .sline {
     border-bottom-color: #1d4078;
@@ -473,7 +490,6 @@ a:hover {
 .box.box-small .company-title h2 {
     font-size: 18px;
     text-align: left;
-    margin:
 }
 .box.box-small .company-title {
     width: calc(100% - 70px);
@@ -495,7 +511,7 @@ a:hover {
 .box .company-details p {
     font-size: 18px;
 }
-.box .company-details p {
+.box-small .company-details p {
     font-size: 10px;
     line-height: 1;
 }
@@ -557,8 +573,13 @@ a:hover {
     color: #fff;
     border: 2px solid #ddd;
     border-radius: 50px;
-    background: #ea8c28;
-    background-size: contain;
+    background: rgba(247, 178, 23, 1);
+    background: -moz-linear-gradient(left, rgba(247, 178, 23, 1) 0%, rgba(248, 133, 26, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247, 178, 23, 1)), color-stop(100%, rgba(248, 133, 26, 1)));
+    background: -webkit-linear-gradient(left, rgba(247, 178, 23, 1) 0%, rgba(248, 133, 26, 1) 100%);
+    background: -o-linear-gradient(left, rgba(247, 178, 23, 1) 0%, rgba(248, 133, 26, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(247, 178, 23, 1) 0%, rgba(248, 133, 26, 1) 100%);
+    background: linear-gradient(to right, rgba(247, 178, 23, 1) 0%, rgba(248, 133, 26, 1) 100%);
 }
 .the-team-description a .icon-soundcloud {
     position: absolute;
@@ -631,8 +652,157 @@ a:hover {
 .traffix-v2 .more {
     padding-right: 130px;
 }
+.traffix-v2 .traffix-listing .title {
+    margin-bottom: 20px;
+}
 @media (min-width: 992px) and (max-width: 1199px) {
-    .container {
+    .slide-form-title {
+        font-size: 22px;
+    }
+    .slide .slide-form .panel-heading {
+        font-size: 20px;
+    }
+    .box.box-small {
+        height: 380px;
+    }
+    .blog-item .blog-description {
+        padding-top: 0;
+    }
+    .blog-image img {
+        width: 425px;
+    }
+    .company .the-team .the-team-man {
+        width: 532px;
+    }
+    .company-notify .the-team .the-team-man {
+        right: -40px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .slide .slide-content {
+        height: 345px;
+        margin-bottom: 30px;
+    }
+    .blog-item {
         width: 100%;
+        background-size: cover;
+    }
+    .blog-image img {
+        margin-top: 20px;
+        width: 320px;
+    }
+    .blog-item .blog-description {
+        padding-right: 40px;
+        font-size: 12px;
+    }
+    .blog-item .blog-item-title .more a {
+        right: 40px;
+    }
+    .traffix-footer,
+    .traffix-listing {
+        padding: 40px;
+    }
+    .the-team .the-team-title {
+        width: 100%;
+    }
+    .the-team .the-team-title h2 {
+        font-size: 34px;
+    }
+    .traffix-report-item .box-price {
+        margin-left: calc(50% - 85px);
+    }
+    .traffix-report-item .box-cirle {
+        font-size: 56px;
+        width: 170px;
+        height: 170px;
+    }
+    .traffix-report-item .box-text .box-text-title {
+        font-size: 18px;
+    }
+    .traffix-report-item .box-cirle sup {
+        font-size: 28px;
+        top: 75px;
+    }
+    .traffix-report-item .box-cirle sub {
+        font-size: 22px;
+        bottom: 50px;
+    }
+    .traffix-report-item .box-text ul {
+        font-size: 14px;
+    }
+    .traffix-report-item .box-action {
+        font-size: 18px;
+    }
+    .traffix-report .box-text {
+        height: 280px;
+    }
+    .box-large .company-title h2 {
+        font-size: 38px;
+        margin: 0 0 30px;
+    }
+    .box .company-title span {
+        font-size: 24px;
+    }
+    .box-large .company-details h3 {
+        font-size: 18px;
+    }
+    .box-large .company-details p {
+        font-size: 12px;
+    }
+    .box .company-title .star {
+        bottom: -25px;
+    }
+    .company .box {
+        padding: 20px;
+    }
+    .compnany-president img {
+        max-width: 100%;
+    }
+    .box.box-small .compnany-president {
+        width: 100px;
+        right: 25%;
+    }
+    .box.box-small .company-title {
+        width: 100%;
+        margin-top: 60px;
+    }
+    .box.box-small .company-title h2 {
+        margin: 0;
+    }
+    .box-small .company-title .star {
+        bottom: 0;
+    }
+    .box.box-small {
+        height: 400px;
+    }
+    .box-small .company-details h3 {
+        font-size: 14px;
+    }
+    .box .company-line {
+        margin-right: 0;
+    }
+    .the-team {
+        height: 512px;
+    }
+    .company .the-team .the-team-man {
+        width: 300px;
+        top: 222px;
+        left: -95px;
+    }
+    .company .the-team .quotes {
+        top: 90px;
+        left: 30px;
+        width: 115px;
+    }
+    .company-notify .the-team .quotes {
+        top: 70px;
+        right: 40px;
+        width: 115px;
+    }
+    .company-notify .the-team .the-team-man {
+        right: -40px;
+        top: 240px;
+        opacity: 0.6;
+        width: 40%;
     }
 }
