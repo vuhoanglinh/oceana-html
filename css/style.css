@@ -22,17 +22,13 @@
 ul {
     list-style: none;
 }
-
 a:hover {
     text-decoration: none;
 }
-
 .full-width {
     float: left;
     width: 100%;
 }
-
-
 /*
 * HEADER CSS
 */
@@ -42,21 +38,17 @@ a:hover {
     z-index: 22;
     padding: 15px 80px 10px;
 }
-
 .header .logo {
     position: absolute;
     bottom: -50px;
     left: 30px;
 }
-
 .header .logo img {
     height: 100px;
 }
-
 .callnow {
     float: right;
 }
-
 .callnow a,
 .callnow span {
     display: table-cell;
@@ -64,17 +56,13 @@ a:hover {
     vertical-align: top;
     color: #5cb3c7;
 }
-
 .callnow span {
     font-size: 24px;
     padding-top: 10px;
 }
-
 .callnow a {
     font-size: 54px;
 }
-
-
 /*
 * SLIDE CSS
 */
@@ -86,24 +74,20 @@ a:hover {
     background: url(../images/bg_02.png);
     background-size: 100%;
 }
-
 .slide .slide-content {
     position: relative;
     height: 560px;
 }
-
 .more {
     position: relative;
     display: block;
     width: 100%;
     padding-right: 50px;
 }
-
 .more .sline {
     display: block;
     border-bottom: 1px solid #fff;
 }
-
 .more a {
     font-size: 18px;
     position: absolute;
@@ -112,14 +96,12 @@ a:hover {
     letter-spacing: 1px;
     color: #fff;
 }
-
 .slide .slide-content .title {
     position: absolute;
     top: 30px;
     left: -20px;
     right: 100px;
 }
-
 .slide .slide-description {
     position: absolute;
     bottom: 0;
@@ -128,52 +110,43 @@ a:hover {
     text-align: justify;
     font-size: 16px;
 }
-
 .title {
     font-family: 'Porter Bold DEMO', sans-serif;
     font-size: 48px;
     font-weight: bold;
     line-height: .9;
 }
-
 .title .line {
     display: block;
     width: 250px;
     margin-top: 10px;
     border-bottom: 2px solid #fff;
 }
-
 .slide .slide-form {
     color: #999;
     padding-left: 0;
 }
-
 .slide .slide-form .panel {
     border-radius: 20px;
     -webkit-box-shadow: 0 0 12px 0 rgba(0, 0, 0, 1);
     -moz-box-shadow: 0 0 12px 0 rgba(0, 0, 0, 1);
     box-shadow: 0 0 12px 0 rgba(0, 0, 0, 1);
 }
-
 .slide .slide-form .panel-heading {
     font-size: 22px;
     padding-bottom: 0;
     color: #224886;
 }
-
 .slide .slide-form .panel {
     margin-bottom: 0;
     /*height: 490px;*/
 }
-
 .slide .slide-form .panel .panel-body {
     padding-top: 0;
 }
-
 .form-group {
     margin-bottom: 0;
 }
-
 .form-control {
     font-size: 12px;
     line-height: 1.2;
@@ -185,14 +158,12 @@ a:hover {
     border-radius: 0;
     box-shadow: none !important;
 }
-
 .form-control:focus {
     border-top-color: transparent;
     border-right-color: transparent;
     border-left-color: transparent;
     box-shadow: none;
 }
-
 .btn-box {
     font-size: 28px;
     width: 100%;
@@ -201,15 +172,14 @@ a:hover {
     color: #fff;
     border: 2px solid #ddd;
     border-radius: 50px;
-    background: rgba(247,178,23,1);
-background: -moz-linear-gradient(left, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,178,23,1)), color-stop(100%, rgba(248,133,26,1)));
-background: -webkit-linear-gradient(left, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 100%);
-background: -o-linear-gradient(left, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 100%);
-background: -ms-linear-gradient(left, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 100%);
-background: linear-gradient(to right, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 100%);
+    background: rgba(247, 178, 23, 1);
+    background: -moz-linear-gradient(left, rgba(247, 178, 23, 1) 0%, rgba(248, 133, 26, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247, 178, 23, 1)), color-stop(100%, rgba(248, 133, 26, 1)));
+    background: -webkit-linear-gradient(left, rgba(247, 178, 23, 1) 0%, rgba(248, 133, 26, 1) 100%);
+    background: -o-linear-gradient(left, rgba(247, 178, 23, 1) 0%, rgba(248, 133, 26, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(247, 178, 23, 1) 0%, rgba(248, 133, 26, 1) 100%);
+    background: linear-gradient(to right, rgba(247, 178, 23, 1) 0%, rgba(248, 133, 26, 1) 100%);
 }
-
 .slide-form-title {
     font-size: 24px;
     width: 100%;
@@ -222,19 +192,15 @@ background: linear-gradient(to right, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 
     background: #5cb3c7;
     text-shadow: -4px 0 rgba(0, 0, 0, .47);
 }
-
 .slide .slide-form .small {
     font-size: 9px;
     margin: 0;
 }
-
 .form-message a {
     display: inline-block;
     margin-bottom: 10px;
     color: #555;
 }
-
-
 /*
 * BLOG CSS
 */
@@ -247,7 +213,6 @@ background: linear-gradient(to right, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 
     border-radius: 0 50px;
     background: #fff;
 }
-
 .blog-item {
     float: left;
     overflow: hidden;
@@ -260,24 +225,20 @@ background: linear-gradient(to right, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 
     background-position: 0 85px;
     background-size: 100%;
 }
-
 .blog-item .blog-item-title {
     margin-bottom: 45px;
-  letter-spacing: 0.4px;
+    letter-spacing: 0.4px;
     padding-left: 80px;
 }
 .blog-item .blog-item-title h3 {
     font-size: 26px;
 }
-
 .blog-item .blog-item-title .more {
     padding-right: 80px;
 }
-
 .blog-item .blog-item-title .more .sline {
     border-color: #5cb3c7;
 }
-
 .blog-item .blog-item-title .more a {
     font-size: 18px;
     top: -25px;
@@ -291,20 +252,16 @@ background: linear-gradient(to right, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 
     text-shadow: -4px 0 rgba(0, 0, 0, .47);
     text-transform: uppercase;
 }
-
 .blog-item .blog-description {
     padding-top: 20px;
     padding-right: 125px;
     font-size: 13px;
     line-height: 1;
 }
-
 .blog-image img {
     margin-top: -30px;
     width: 490px;
 }
-
-
 /*
 * COST TABLE CSS
 */
@@ -312,23 +269,19 @@ background: linear-gradient(to right, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 
 .traffix-report {
     margin-bottom: 20px;
 }
-
 .traffix-report-item {
     position: relative;
     text-align: center;
     color: #1d4078;
 }
-
 .traffix-listing .traffix-report-item:last-child {
     background-image: none;
 }
-
 .traffix-report-item .box-price {
     position: relative;
     z-index: 11;
     margin-left: calc(50% - 95px);
 }
-
 .traffix-report-item .box-cirle {
     font-size: 72px;
     position: relative;
@@ -341,24 +294,20 @@ background: linear-gradient(to right, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 
     border-radius: 50%;
     background: #1d4078;
 }
-
 .traffix-report-item .box-cirle sup,
 .traffix-report-item .box-cirle sub {
     position: absolute;
 }
-
 .traffix-report-item .box-cirle sup {
     font-size: 32px;
     top: 85px;
     left: 15px;
 }
-
 .traffix-report-item .box-cirle sub {
     font-size: 24px;
     bottom: 55px;
     left: 65px;
 }
-
 .traffix-report .box-text {
     position: relative;
     height: 330px;
@@ -367,17 +316,14 @@ background: linear-gradient(to right, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 
     border-radius: 25px;
     background: url(../images/bg_box_06.png);
 }
-
 .traffix-report-item .box-text .box-text-title {
     font-size: 24px;
     line-height: 1;
 }
-
 .traffix-report-item .box-text .box-text-title sup {
     font-size: 16px;
     font-style: italic;
 }
-
 .traffix-report-item .box-text ul {
     font-size: 18px;
     line-height: 1;
@@ -385,7 +331,6 @@ background: linear-gradient(to right, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 
     list-style: none;
     text-align: left;
 }
-
 .traffix-report-item .box-action {
     position: absolute;
     right: 20px;
@@ -395,16 +340,14 @@ background: linear-gradient(to right, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 
     border-color: #fff;
     box-shadow: 0 2px 3px rgba(0, 0, 0, .76);
 }
-
 .traffix-footer,
 .traffix-listing {
     position: relative;
     z-index: 22;
     float: left;
     width: 100%;
-    padding: 20px 80px;
+    padding: 40px 80px;
 }
-
 .traffix-listing {
     padding-bottom: 60px;
     background: url(../images/bg_shadow_02.png);
@@ -412,26 +355,21 @@ background: linear-gradient(to right, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 
     background-position: left 380px;
     background-size: contain;
 }
-
 .traffix-footer {
     margin-top: -50px;
 }
-
 .traffix-report-text,
 .traffix-report-text .more a {
     font-size: 16px;
     color: #1d4078;
 }
-
 .traffix-report-text h2 {
     font-size: 32px;
     margin-top: 0;
 }
-
 .traffix-report-action {
     text-align: center;
 }
-
 .traffix-report-action .link-more {
     font-size: 28px;
     font-style: italic;
@@ -439,37 +377,29 @@ background: linear-gradient(to right, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 
     margin-top: 10px;
     color: #fff;
 }
-
 .traffix-report .title {
     margin: 0 40px;
     color: #5cb3c7;
 }
-
 .traffix-report .title .line {
     border-bottom-color: #5cb3c7;
 }
-
 .traffix-report-text .more .sline {
     border-bottom-color: #1d4078;
 }
-
 .traffix-report-text .more a {
     padding-left: 15px;
     background: #fff;
 }
-
-
 /*
 * COMPANY CSS
 */
 
 .company {
     padding: 40px 80px;
-    /*background-size: contain;*/
     color: #1d4078;
     background: url(../images/bg_0_02.png);
 }
-
 .company .box {
     position: relative;
     margin-bottom: 40px;
@@ -478,24 +408,23 @@ background: linear-gradient(to right, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 
     border-radius: 25px;
     background: url(../images/bg_box_06.png);
 }
-
 .box.box-large {
     height: 360px;
 }
-
+.box.box-small {
+    height: 325px;
+}
 .box .compnany-president {
     position: absolute;
     top: -50px;
     right: -44px;
     width: 360px;
 }
-
 .box .company-title {
     position: relative;
     width: calc(100% - 245px);
     text-align: right;
 }
-
 .box .company-title h2 {
     font-size: 46px;
     line-height: 1.2;
@@ -503,126 +432,101 @@ background: linear-gradient(to right, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 
     letter-spacing: 1px;
     margin: 0 0 20px;
 }
-
 .box .company-title span {
     font-size: 28px;
     display: block;
 }
-
 .box .company-line {
     margin-right: -40px;
     border: 1px solid #1d4078;
 }
-
 .star ul {
     margin: 0;
     padding: 0;
 }
-
 .star ul li {
     display: inline-block;
 }
-
 .box .star img {
     width: 26px;
 }
-
 .box .company-title .star {
     position: absolute;
     bottom: 5px;
     left: 0;
 }
-
 .box .company-details {
     width: calc(100% - 255px);
 }
-
 .box .company-details h3 {
     font-size: 28px;
 }
-
 .box .company-details p {
     font-size: 18px;
     line-height: 1.2;
 }
-
 .box.box-small .compnany-president {
     top: -30px;
     right: 0;
     width: 155px;
 }
-
 .box.box-small .company-title h2 {
     font-size: 18px;
     text-align: left;
-    margin: 
+    margin:
 }
-
 .box.box-small .company-title {
     width: calc(100% - 70px);
     margin-top: 20px;
 }
-
 .box.box-small .company-title span {
     font-size: 13px;
     letter-spacing: 0;
 }
-
 .box.box-small .company-details {
     width: 100%;
 }
-
 .box .company-details h3 {
     font-size: 28px;
 }
-
 .box-small .company-details h3 {
-  font-size: 18px;
+    font-size: 18px;
 }
-
 .box .company-details p {
     font-size: 18px;
 }
 .box .company-details p {
-  font-size: 10px;
-  line-height: 1;
+    font-size: 10px;
+    line-height: 1;
 }
-
 .box-small .star img {
     width: 15px;
 }
-
 .box-small .company-title .star {
     position: relative;
     text-align: left;
     margin-bottom: 10px;
 }
-
 .box-small-list {
     margin-right: -30px;
     margin-left: -30px;
 }
-
 .company .title .line {
     border-bottom-color: #1d4078;
 }
-
 .the-team {
     position: relative;
     height: 600px;
 }
-
 .the-team .title {
-  margin-left: -40px;
+    margin-left: -40px;
 }
-
 .company .the-team .the-team-man {
     position: absolute;
     z-index: 2;
     left: -80px;
     width: 522px;
 }
-
 .company .the-team .quotes {
     position: absolute;
     z-index: 1;
@@ -630,14 +534,12 @@ background: linear-gradient(to right, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 
     left: 250px;
     width: 230px;
 }
-
 .the-team .the-team-title {
     position: relative;
     z-index: 4;
     float: right;
     width: 70%;
 }
-
 .the-team .the-team-title h2 {
     font-size: 56px;
     padding-bottom: 10px;
@@ -646,7 +548,6 @@ background: linear-gradient(to right, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 
     text-align: right;
     border-bottom: 1px solid #1d4078;
 }
-
 .the-team-description a {
     font-size: 16px;
     position: relative;
@@ -659,61 +560,50 @@ background: linear-gradient(to right, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 
     background: #ea8c28;
     background-size: contain;
 }
-
 .the-team-description a .icon-soundcloud {
     position: absolute;
     top: -22px;
 }
-
 .the-team-description {
     float: right;
     width: 80%;
 }
-
 .the-team-description h3 {
     font-size: 20px;
     display: inline-block;
 }
-
 .the-team-description h3 span {
     font-size: 16px;
     display: block;
 }
-
 .company-notify {
     padding: 40px;
     color: #1d4078;
 }
-
 .company-notify .the-team .the-team-title {
     float: left;
     text-align: left;
 }
-
 .company-notify .the-team .the-team-title h2 {
     font-size: 32px;
     margin-top: 0;
     padding-left: 0;
     text-align: left;
 }
-
 .company-notify .the-team .the-team-man {
     position: absolute;
     z-index: 2;
     right: -73px;
     width: 50%;
 }
-
 .company-notify .the-team-title p,
 .company-notify .the-team-description {
     width: 80%;
     padding-left: 5%;
 }
-
 .company-notify .the-team-description {
     float: left;
 }
-
 .company-notify .the-team .quotes {
     position: absolute;
     z-index: 2;
@@ -722,31 +612,25 @@ background: linear-gradient(to right, rgba(247,178,23,1) 0%, rgba(248,133,26,1) 
     width: 230px;
     transform: rotate(180deg);
 }
-
 .traffix-v2 {
     margin-bottom: 0;
     color: #1d4078;
     background: url(../images/bg_0_05.png);
 }
-
 .traffix-v2 .title,
 .traffix-v2 .title,
 .traffix-v2 .traffix-report-text h2 {
     color: #1d4078;
 }
-
 .traffix-v2 .title .line {
     border-bottom-color: #1d4078;
 }
-
 .traffix-v2 .traffix-report-text .more a {
     background: transparent;
 }
-
 .traffix-v2 .more {
     padding-right: 130px;
 }
-
 @media (min-width: 992px) and (max-width: 1199px) {
     .container {
         width: 100%;
