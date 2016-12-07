@@ -929,6 +929,7 @@ a:hover {
         height: auto;
         padding: 20px;
         background-size: cover;
+        color: #333;
     }
     .blog-image img {
         width: 320px;
