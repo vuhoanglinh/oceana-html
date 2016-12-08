@@ -42,40 +42,47 @@
 					</div>
 
 					<!-- slide form  -->
-					<div class="col-md-4 slide-form">
-						<h3 class="slide-form-title">GET ON MY CALENDAR NOW</h3>
-						<div class="panel">
-						  <div class="panel-heading font-bold">Run my website scan now</div>
-						  <div class="panel-body">
-						    	<form>
-						    		<div class="form-group">
-								    	<input type="text" class="form-control" id="fname" name="fname" placeholder="full name">
-								  	</div>
-								  	<div class="form-group">
-								    	<input type="text" class="form-control" id="phone" name="phone" placeholder="phone number">
-								  	</div>
-								  	<div class="form-group">
-								    	<input type="email" class="form-control" id="email" name="email" placeholder="email">
-								  	</div>
-								  	<div class="form-group">
-								    	<input type="text" class="form-control" id="website" name="website" placeholder="your website address?">
-								  	</div>
-								  	<div class="form-group">
-								  		<textarea class="form-control" rows="12" id="message" name="message" placeholder="what completitor do you &#10;want to take business from?"></textarea>
-								  	</div>
+						<div class="col-md-4 slide-form">
+							<h3 class="slide-form-title">GET ON MY CALENDAR NOW</h3>
+							<div class="panel">
+								<div class="panel-heading font-bold">Run my website scan now</div>
+								<div class="panel-body">
+									<form action="email.php" method="post" id="contactForm" data-toggle="validator" role="form" novalidate="true">
 
-							  		<button type="submit" class="btn btn-box" >SCAN NOW</button>
+										<div class="form-group">
+											<input required="" type="text" class="form-control" id="fname" name="fname" placeholder="full name">
+											<div class="help-block with-errors"></div>
+										</div>
+										<div class="form-group">
+											<input required="" type="text" class="form-control" id="phone" name="phone" placeholder="phone number">
+											<div class="help-block with-errors"></div>
+										</div>
+										<div class="form-group">
+											<input required="" type="email" class="form-control" id="email" name="email" placeholder="email">
+											<div class="help-block with-errors"></div>
+										</div>
+										<div class="form-group">
+											<input required="" type="text" class="form-control" id="website" name="website" placeholder="your website
+											address?">
+											<div class="help-block with-errors"></div>
+										</div>
+										<div class="form-group">
+											<textarea required="" class="form-control" rows="12" id="message" name="message" placeholder="what completitor do you &#10;want to take business from?"></textarea>
+											<div class="help-block with-errors"></div>
+										</div>
 
-								  	<div class="form-message">
-								  		<div class="text-center">
-								  			<a href="webdesign.html">Or Learn More</a>
-								  		</div>
-								  		<p class="small"> By proceeding. I argee that Traffix Cop or its resprsenttatives may contact me by email, phone, or SMS (including by automatic telephone dialing system) at the email address or number I provide, including for marketing purposes. I have read and understand the policies.</p>
-								  	</div>
-							</form>
-						  </div>
+										<button type="submit" class="btn btn-box" >SCAN NOW</button>
+
+										<div class="form-message">
+											<div class="text-center">
+												<a href="webdesign.html">Or Learn More</a>
+											</div>
+											<p class="small"> By proceeding. I argee that Traffix Cop or its resprsenttatives may contact me by email, phone, or SMS (including by automatic telephone dialing system) at the email address or number I provide, including for marketing purposes. I have read and understand the policies.</p>
+										</div>
+									</form>
+								</div>
+							</div>
 						</div>
-					</div>
 
 					<div class="clearfix"></div>
 
@@ -208,8 +215,12 @@
 				</div>
 			</section>
 
-		</div>
-	</div>	
+		</div> <!-- endrow -->
+	</div><!-- end container -->
+
+	<!-- javascript -->
 	<script src="plugins/jquery/1.12.4/jquery.min.js"></script>
 	<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="scripts/validator.min.js"></script>
+	<script src="scripts/scripts.js"></script>
 </body>	
