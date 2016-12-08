@@ -1058,6 +1058,9 @@ a:hover {
 	background-size: 100%;
 	color: #045a5b;
 }
+.our-cost .title {
+	font-size: 100px;
+}
 .our-cost .title,
 .our-cost .title span {
 	color: #045a5b;
@@ -1070,9 +1073,13 @@ a:hover {
 	font-size: 16px;
 	padding-top: 10px; 
 }
+.our-cost .btn-box {
+	font-size: 58px;
+	text-shadow: -9px 4px rgba(0, 0, 0, .47);
+}
 @media (min-width: 992px) and (max-width: 1199px) {
     .slide-form-title {
-        font-size: 22px;
+        font-size: 18px;
     }
     .slide .slide-form .panel-heading {
         font-size: 20px;
@@ -1092,6 +1099,16 @@ a:hover {
     .company-notify .the-team .the-team-man {
         right: -40px;
     }
+
+    .webdesign .slide {
+    	background-size: 133%;
+    }
+    .anatomy-table .col-head span {
+    	font-size: 16px;
+    }
+    .our-cost .title {
+	    font-size: 92px;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1221,6 +1238,51 @@ a:hover {
         width: 40%;
         opacity: .6;
     }
+	.webdesign .slide .slide-content {
+	    height: 485px;
+	    margin-bottom: 0;
+	}
+	.webdesign .slide-description {
+		width: 90%;
+	}
+    .provide,
+    .webdesign .slide {
+    	background-size: cover;
+    }
+    .anatomy {
+    	margin-top: 20px;
+    }
+    .anatomy-table .col .col-body {
+	    padding: 10px 10px 20px 10px;
+	}
+	.anatomy-table .col .col-head {
+	    padding: 10px 10px;
+	}
+	.anatomy-table .col-head span.number {
+	    font-size: 32px;
+	    padding-right: 10px;
+	}
+	.anatomy-table .col-head span {
+    	font-size: 14px;
+	}
+	.anatomy-table .col {
+	    height: 375px;
+	}
+	.webdesign .title {
+	    font-size: 38px;
+	}
+	.our-cost .title {
+	    font-size: 68px;
+	}
+	.provide-cell-right {
+	    font-size: 42px;
+	}
+	.provide-row {
+	    margin-top: 35px;
+	}
+	.our-cost .btn-box {
+	    font-size: 48px;
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -1318,7 +1380,46 @@ a:hover {
     .traffix-report-item {
         margin-bottom: 20px;
     }
-}
+
+    .provide,
+    .webdesign .slide {
+    	background-size: cover;
+    }
+    .anatomy {
+    	margin-top: 20px;
+    }
+	.webdesign .slide-description {
+		width: 90%;
+	}
+	.webdesign .slide-description {
+		bottom: 0;
+	}
+	.anatomy-table .col {
+		width: 33.3%;
+	}
+	.provide-cell-right {
+	    font-size: 44px;
+	}
+	.our-cost .title {
+	    font-size: 62px;
+	}
+	.our-cost .btn-box {
+	    font-size: 32px;
+	    text-shadow: -4px 0px rgba(0, 0, 0, .47);
+	}
+	.logo-brand > ul > li {
+	    width: 25%;
+	}
+	.logo-brand > ul > li:last-child {
+	    width: 100%;
+	}
+	.periodic,
+	.provide,
+	.our-work,
+	.our-cost {
+		padding-right: 40px;
+		padding-left: 40px;
+	}
 
 @media only screen and (max-width: 736px) {
     .header {
@@ -1395,6 +1496,41 @@ a:hover {
     .traffix-report-item {
         margin-bottom: 20px;
     }
+
+    .webdesign .slide-content .title {
+    	font-size: 68px;
+    }
+    .webdesign .slide-description {
+	    font-size: 18px;
+	    left: 0;
+	}
+	.anatomy .anatomy-description,
+	.our-work .description {
+		padding: 0;
+	}
+	.anatomy-table .col, 
+	.anatomy-left, 
+	.anatomy-right,
+	.provide-row {
+		width: 100%;
+	}
+	.periodic,
+	.our-work {
+		padding-top: 0;
+	}
+	.provide .title {
+	    margin-top: 195px;
+	}
+	.provide-cell-right {
+	    font-size: 36px;
+	}
+	.provide-row {
+		margin-left: 0;
+	}
+	.logo-brand > ul > li {
+	    width: 33.33%;
+	    height: 80px;
+	}
 }
 
 @media screen and (max-width: 640px) {
@@ -1436,6 +1572,9 @@ a:hover {
         width: calc(100% - 70px);
         margin-top: 0;
     }
+    .logo-brand > ul > li:last-child {
+    	margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -1469,4 +1608,14 @@ a:hover {
     .traffix-listing {
         padding: 40px 20px;
     }
+    .logo-brand > ul > li {
+    	width: 50%;
+    }
+    .our-cost .title {
+	    font-size: 42px;
+	}
+	.our-cost .btn-box {
+	    font-size: 24px;
+	    text-shadow: -4px 0px rgba(0, 0, 0, .47);
+	}
 }
