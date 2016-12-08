@@ -771,16 +771,19 @@ a:hover {
 /*
 * WEBDESIGN CSS
 */
-.title span {
+.webdesign .title,
+.webdesign .title span {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #ffffff;
+	font-weight: normal;
 }
 .webdesign .slide {
 	background: url(../images/bg_design_01.png);
-	background-size: 105%;
+	background-size: 110%;
+	padding-bottom: 40px;
 }
 
 .webdesign .slide-content .title {
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 100px;
 	font-weight: normal;
 	left: 20px;
@@ -908,6 +911,164 @@ a:hover {
 }
 .anatomy-right ul li {
 	margin-bottom: 10px;
+}
+
+/*
+* PERIODIC CSS
+*/
+.periodic {
+    padding: 40px 80px 0;
+    position: relative;
+    z-index: 2;
+}
+.periodic .title,
+.periodic .title span,
+.our-work .title,
+.our-work .title span {
+	color: #224886;
+}
+.periodic .title .line,
+.provide .title .line,
+.our-work .title .line,
+.our-cost .title .line {
+	width: 100%;
+	margin-top: 20px;
+}
+
+
+/*
+* PROVIDE CSS
+*/
+.provide {
+    padding: 0px 80px 20px;
+    background: url(../images/bg_design_03.png);
+    background-size: 100%;
+    color: #ffffff;
+    margin-top: -70px;
+}
+.provide .title {
+	margin-top: 135px;
+}
+.provide-row {
+    float: left;
+    width: calc(100% - 40px);
+    margin-top: 20px;
+    margin-left: 40px;
+    border-top: 1px solid rgba(111, 179, 201, 0.73);
+    position: relative;
+}
+.provide-table .provide-row:first-child {
+	margin-top: 30px;
+}
+.provide-row.dotted {
+	border-top: 2px dotted rgba(111, 179, 201, 0.73);
+}
+.provide-head {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    font-size: 18px;
+    color: #fff48b;
+}
+.provide-head span {
+	font-size: 180%;
+	padding-left: 20px;
+}
+.provide-head span.white {
+	font-size: 100%;
+	color: #ffffff;
+	padding-left: 10px;
+}
+.provide-cell-left {
+	float: left;
+}
+.provide-row ul {
+    list-style: none;
+    padding:0;
+    margin-top: 10px;    
+    font-size: 16px;
+}
+
+.provide-row li:before {
+    content: "";
+    line-height: 1em;
+    width: .4em;
+    height: .36em;
+    background-color: #fff48b;
+    float: left;
+    margin: .30em .35em 0;
+    border-radius: 40%;
+}
+.provide-cell-right {
+	float: right;
+	font-size: 56px;
+	font-weight: normal;
+}
+.provide-cell-left,
+.provide-cell-right {
+	padding-top: 10px;
+}
+
+/*
+* OUR WORK CSS
+*/
+.our-work {
+	padding: 40px 80px 0;
+	background: #dbdcde;
+}
+.our-work .title .line {
+	border-bottom-color: #224886;
+}
+.our-work .description {
+	color: #224886;
+	font-size: 16px;
+	padding:  0 40px;
+}
+.logo-brand > ul > li {
+	width: 16.66%;
+	float: left;
+	height: 100px;
+	color: #224886;
+}
+.logo-brand > ul > li:last-child {
+	width: 40%;
+}
+.logo-brand > ul > li ul {
+	color: #224886;
+	font-size: 10px;
+}
+.logo-brand > ul > li li {
+	display: inline-block;
+}
+
+.logo-brand > ul img {
+	width: 100%;
+}
+.device {
+	position: relative;
+	z-index: 22;
+}
+/*
+* OUR COST
+*/
+.our-cost {
+	padding: 40px 80px;
+	margin-top: -40px;
+	background: url(../images/bg_0_05.png);
+	background-size: 100%;
+	color: #045a5b;
+}
+.our-cost .title,
+.our-cost .title span {
+	color: #045a5b;
+}
+.our-cost .title .line {
+	border-bottom-color: #045a5b;
+}
+.our-cost .description {
+	letter-spacing: 1px;
+	font-size: 16px;
+	padding-top: 10px; 
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     .slide-form-title {
