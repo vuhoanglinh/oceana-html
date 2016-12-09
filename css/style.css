@@ -1420,6 +1420,14 @@ a:hover {
 		padding-right: 40px;
 		padding-left: 40px;
 	}
+    .blog-item .blog-description,
+    .box .company-details p,
+    .the-team-description,
+    .company-notify .the-team .the-team-title h2,
+    .company-notify .the-team-title p, 
+    .company-notify .the-team-description {
+        text-align: justify;
+    }
 
 @media only screen and (max-width: 736px) {
     .header {
@@ -1442,7 +1450,7 @@ a:hover {
         left: 0;
     }
     .title {
-        font-size: 38px;
+        font-size: 32px;
     }
     .slide .slide-content .title {
         margin-bottom: 40px;
